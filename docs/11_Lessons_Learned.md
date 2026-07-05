@@ -1,5 +1,5 @@
-## Lessons Learned
-# Purpose
+# Lessons Learned
+## Purpose
 
 The Smart Garden Helper Version 1.0.0 represents more than a completed Arduino project. It represents a practical engineering journey involving system design, embedded programming, hardware integration, troubleshooting, user interface development and technical communication.
 
@@ -9,8 +9,8 @@ Some lessons reinforced theoretical concepts previously encountered during unive
 
 This document records those lessons so that future versions of the project—and future engineering work—can benefit from the experience gained during Version 1.0.0.
 
-## Technical Lessons
-# Analogue sensors require calibration
+# Technical Lessons
+## Analogue sensors require calibration
 
 One of the earliest lessons learned during development was that analogue sensors cannot simply be connected and expected to produce meaningful values.
 
@@ -24,7 +24,7 @@ This reinforced an important engineering principle:
 
 A sensor is only as useful as its calibration.
 
-# Raw data is not useful on its own
+## Raw data is not useful on its own
 
 Initially, the project focused on obtaining sensor readings.
 
@@ -51,7 +51,7 @@ Air Dry
 
 This demonstrated that engineering is not only about collecting data but also about presenting information in a useful form.
 
-# Hardware faults often resemble software bugs
+## Hardware faults often resemble software bugs
 
 One of the most important troubleshooting lessons emerged during the development of the soil moisture module.
 
@@ -69,7 +69,7 @@ To never assume that every unexpected behaviour originates from software.
 
 Hardware and software should always be investigated together.
 
-# Real hardware rarely behaves exactly as theory predicts
+## Real hardware rarely behaves exactly as theory predicts
 
 Many engineering calculations assume ideal operating conditions.
 
@@ -81,8 +81,8 @@ Rather than forcing the software to produce expected values artificially, the sy
 
 This experience demonstrated that engineering decisions should be based on measured evidence rather than assumptions.
 
-## Software Engineering Lessons
-# Modularity simplifies development
+# Software Engineering Lessons
+## Modularity simplifies development
 
 One of the most successful design decisions was dividing the Smart Garden Helper into independent software modules.
 
@@ -97,7 +97,7 @@ Classroom demonstrations became easier because each module could be explained se
 
 Rather than viewing modularity as simply a programming technique, this project demonstrated that it is an effective engineering strategy for managing complexity.
 
-# State machines produce better interfaces
+## State machines produce better interfaces
 
 Before developing this project, it would have been tempting to display every sensor measurement simultaneously.
 
@@ -109,7 +109,7 @@ Each screen focused on a single aspect of the monitored environment while mainta
 
 This introduced an important concept used extensively throughout embedded systems and reinforced the value of designing around hardware constraints.
 
-# Non-blocking timing improves responsiveness
+## Non-blocking timing improves responsiveness
 
 Another valuable lesson involved system timing.
 
@@ -117,8 +117,8 @@ Instead of relying on long blocking delays, Version 1.0.0 separates sensor acqui
 
 Although relatively simple, this design produces a noticeably smoother user experience and demonstrates an approach that scales well as systems become more complex.
 
-## Systems Engineering Lessons
-# Build small before building big
+# Systems Engineering Lessons
+## Build small before building big
 
 The Smart Garden Helper was never developed as a complete system from the outset.
 
@@ -154,7 +154,7 @@ This reinforced an important systems engineering principle:
 
 Prototype first. Integrate later.
 
-# Integration is more than combining parts
+## Integration is more than combining parts
 
 Although each individual module operated correctly, integrating the entire system introduced new considerations.
 
@@ -164,7 +164,7 @@ Successful system integration therefore required more than connecting components
 
 It required careful coordination between hardware, software and user interaction.
 
-# Engineering involves trade-offs
+## Engineering involves trade-offs
 
 Many implementation decisions involved balancing competing objectives.
 
@@ -181,8 +181,8 @@ Instead, each design decision represented a trade-off selected according to the 
 
 Learning to evaluate these trade-offs is an essential engineering skill.
 
-## Educational Lessons
-# Teaching deepened technical understanding
+# Educational Lessons
+## Teaching deepened technical understanding
 
 Perhaps the most unexpected outcome of the Smart Garden Helper was the role that teaching played in strengthening technical understanding.
 
@@ -194,7 +194,7 @@ Explaining concepts such as analogue sensing, calibration, thresholds and modula
 
 Teaching therefore became an integral part of the engineering process rather than an activity separate from it.
 
-# Simplicity requires careful design
+## Simplicity requires careful design
 
 Many engineering concepts appear straightforward once explained clearly.
 
@@ -211,7 +211,7 @@ Gradually building towards systems thinking.
 
 The experience demonstrated that effective educational design is itself an engineering challenge.
 
-# User interaction provides valuable feedback
+## User interaction provides valuable feedback
 
 Observing learners interact with the Smart Garden Helper revealed insights that were not apparent during laboratory testing.
 
@@ -219,8 +219,8 @@ Their questions, predictions and observations influenced refinements to demonstr
 
 This reinforced the importance of involving end users throughout the engineering process rather than waiting until development has concluded.
 
-## Professional Lessons
-# Documentation is part of engineering
+# Professional Lessons
+## Documentation is part of engineering
 
 One of the most significant lessons from this project is that engineering does not end when the code compiles.
 
@@ -230,7 +230,7 @@ Creating comprehensive documentation ensures that the reasoning behind Version 1
 
 This repository therefore serves not only as source code but also as an engineering record.
 
-# Communication is an engineering skill
+## Communication is an engineering skill
 
 Developing the Smart Garden Helper required much more than technical implementation.
 
@@ -240,7 +240,7 @@ These experiences reinforced that effective communication is not separate from e
 
 A well-designed system has little impact if its purpose and operation cannot be explained clearly.
 
-# Leadership involves ownership
+## Leadership involves ownership
 
 As development progressed, increasing responsibility was taken for the technical direction of the project.
 
@@ -248,7 +248,7 @@ This included designing the software architecture, integrating the hardware, pre
 
 This experience demonstrated that leadership in engineering often means accepting responsibility for solving problems, coordinating work and ensuring that technical objectives are achieved, even when challenges arise.
 
-# Looking Forward
+## Looking Forward
 
 Version 1.0.0 establishes a strong foundation for future development.
 
@@ -258,7 +258,7 @@ Many of the lessons documented here will directly influence future iterations of
 
 Rather than representing the end of the project, Version 1.0.0 marks the beginning of a broader engineering journey.
 
-# Lessons Learned Summary
+## Lessons Learned Summary
 
 The Smart Garden Helper Version 1.0.0 demonstrated that successful engineering extends beyond writing functional code. The project reinforced the importance of careful calibration, modular software design, systematic debugging, iterative prototyping and thoughtful user interface development. Equally important were the lessons learned through teaching, communication and technical leadership, all of which contributed to a deeper understanding of both engineering practice and systems thinking.
 
