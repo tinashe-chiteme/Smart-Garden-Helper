@@ -27,7 +27,6 @@ const int LIGHT_DARK_RAW = 0;
 const int LIGHT_BRIGHT_RAW = 740;
 
 // Moisture sensor raw values
-// Many moisture sensors read HIGH when dry and LOW when wet.
 const int MOISTURE_DRY_RAW = 0;
 const int MOISTURE_WET_RAW = 821;
 
