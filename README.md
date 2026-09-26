@@ -1,7 +1,7 @@
 # Smart Garden Helper
 
 Arduino-based environmental monitoring and decision-support system developed
-for **JCP Sensor School 2026**, partnered with the **Department of EECE** from the University of Pretoria at **Moja Gabedi**.
+for **JCP Sensor School 2026**, partnered with the **Department of EECE** from the University of Pretoria (as our community partner) at **Moja Gabedi**.
 
 The Smart Garden Helper integrates multiple environmental sensors into a single
 embedded system that measures temperature, humidity, ambient light and soil
