@@ -18,8 +18,7 @@ const int MOISTURE_PIN = A2;
 // If the button works backwards, change HIGH to LOW.
 const int BUTTON_ACTIVE_LEVEL = HIGH;
 
-// Calibration values
-// These will be updated after testing with learners.
+// Calibration values obtained during project testing. 
 
 
 // Light sensor raw values
